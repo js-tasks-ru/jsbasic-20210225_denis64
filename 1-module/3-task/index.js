@@ -1,3 +1,5 @@
 function ucFirst(str) {
-  // ваш код...
+  let firstLetter = str.charAt(0);
+  let result = str.replace(firstLetter, firstLetter.toUpperCase())
+  return result;
 }
