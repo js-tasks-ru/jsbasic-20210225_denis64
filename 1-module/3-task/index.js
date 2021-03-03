@@ -1,5 +1,4 @@
 function ucFirst(str) {
-  let firstLetter = str.charAt(0);
-  let result = str.replace(firstLetter, firstLetter.toUpperCase())
-  return result;
+  const firstLetter = str.charAt(0);
+  return str.replace(firstLetter, firstLetter.toUpperCase());
 }
